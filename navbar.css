@@ -1,0 +1,63 @@
+.parent1{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    column-gap: 20px;
+}
+.logo{
+    margin-bottom: 5px;
+}
+.menu{
+    display: flex;
+    gap: 20px;
+    color: black;
+    font-weight: bold;
+}
+input{
+    border-radius: 15px;
+    padding: 8px;
+    border: 1px solid grey; 
+}
+button{
+    z-index: 1;
+    margin-left: -35px;
+    border-radius: 10px;
+    border:0cap;
+    background-color: white;
+}
+.p2{
+    display: flex;
+    column-gap: 25px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.parent2{
+    display: flex;
+    justify-content: end;
+    margin-top: -65px;
+    margin-bottom: 5px;
+}
+.ab{
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    z-index: 1;
+    margin-right:-30px;
+}
+.cd{
+    background-color: rgb(167, 197, 167);
+    color:black;
+    padding: 10px 25px 10px 35px;
+    border-radius: 30px;
+}
+.parent3{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+.list{
+    display: flex;
+    column-gap: 28px;
+}
